@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>ch-5-ex</title>
+  </head>
+
+  <body>
+    <script>
+      const name = "alkim";
+      console.log(`my name is: ${name}`);
+
+      const costCoffee = 5;
+      const costBagel = 3;
+      const costSoup = 9;
+      let cost = 0;
+
+      console.log((cost = costBagel + costCoffee + costSoup));
+      console.log(`Cost of food: ${cost}`);
+      let tax = cost * 0.1;
+
+      console.log(cost * 0.1);
+      console.log(`Tax: ${cost * 0.1}`);
+      console.log(`Tax: ${tax}`);
+      let totalCost = tax + cost;
+      console.log(`Total cost: ${totalCost}`);
+    </script>
+  </body>
+</html>

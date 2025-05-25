@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Cart Quantity</title>
+</head>
+
+<body>
+  <!--
+     <button title="Shows cart Quantity" onclick = console.log(cart_quantity)>Show Quantity</button>
+    <button title="Adds to cart 1 item" onclick= cart_quantity = cart_quantity +1>Add to Cart</button>
+    <button title="Adds to cart 2 item2" onclick= cart_quantity = cart_quantity +2>+2</button>
+    <button title="Adds to cart 3 items" onclick= cart_quantity = cart_quantity +3>+3</button>
+    <button title="Removes all of the items in the cart" onclick= cart_quantity = 0>Reset Cart</button>
+    <script>
+     
+     let cart_quantity = 0;
+    
+
+  </script>
+
+  -->
+
+  <button title="Shows cart Quantity" onclick="
+  console.log(`Cart quantity: ${cartQuantity}`);"> Show Quantity </button>
+
+  <button title="Adds to cart 1 item" onclick="
+  cartQuantity = cartQuantity + 1;
+  console.log(`Cart quantity: ${cartQuantity}`);">Add to Cart</button>
+
+  <button title="Removes from the cart 1 item" onclick="
+  cartQuantity --;
+  console.log(`Cart quantity: ${cartQuantity}`);">Remove from cart</button>
+
+
+<button title="Removes from the cart 5 items" onclick="
+cartQuantity -= 5;
+console.log(`Cart quantity: ${cartQuantity}`);">-5</button>
+
+<button title=" Removes from the cart 4 items" onclick="
+  cartQuantity -= 4;
+  console.log(`Cart quantity: ${cartQuantity}`);">-4</button>
+
+<button title="Removes from the cart 3 items" onclick="
+  cartQuantity -= 3; 
+  console.log(`Cart quantity: ${cartQuantity}`);">-3</button>
+
+   <button title="Removes from the cart 2 items" onclick="
+  cartQuantity -=2;
+  console.log(`Cart quantity: ${cartQuantity}`);">-2</button>
+  
+  <button title="Adds to cart 2 items" onclick="
+  cartQuantity += 2;
+  console.log(`Cart quantity: ${cartQuantity}`);">+2</button>
+
+ 
+
+
+  <button title=" Adds to cart 3 item" onclick="
+  cartQuantity = cartQuantity + 3;
+  console.log(`Cart quantity: ${cartQuantity}`);">+3</button>
+
+  
+
+  <button title=" Adds to cart 4 items" onclick="
+  cartQuantity += 4;
+  console.log(`Cart quantity: ${cartQuantity}`);">+4</button>
+
+  
+
+  <button title="Adds to cart 5 items" onclick="
+  cartQuantity += 5;
+  console.log(`Cart quantity: ${cartQuantity}`);">+5</button>
+
+
+
+  <button title="Removes all of the items in the cart" onclick="
+    cartQuantity = 0;
+    console.log('Cart has reset');
+    console.log(`Cart quantity: ${cartQuantity}`);
+    
+    
+    ">Reset Cart</button>
+
+  <script>
+    let cartQuantity = 0;
+
+  </script>
+</body>
+
+</html>
